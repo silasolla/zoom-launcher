@@ -1,0 +1,12 @@
+#!/bin/bash
+
+read -p "id: " id
+read -sp "pass: " pass
+
+# Mac
+open zoommtg:"//zoom.us/join?confno=${id}&pwd=${pass}"
+
+# Linux
+# xdg-open zoommtg:"//zoom.us/join?confno=${id}&pwd=${pass}"
+
+echo "Now connecting..."
